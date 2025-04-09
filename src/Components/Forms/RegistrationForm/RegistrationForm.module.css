@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.registrationForm {
+    padding: 0px;
+    font-family: "Outfit", sans-serif;
+    margin: -10px;
+}
+
+.fromContainer {
+    background-color: transparent;
+}
+
+.formHeader {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 214, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 2px;
+    
+}
+
+.zenithTitle {
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.form{
+
+    margin-top: 20px;
+
+}
+
+
+  

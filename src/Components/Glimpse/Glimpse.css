@@ -1,0 +1,26 @@
+.glimpse-container {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f8f8f8; */
+    min-height: 200vh;
+  }
+  
+  .glimpse-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .glimpse-gallery img {
+    /* width: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+  width: 410px; /* Fixed width */
+  height: 350px; /* Fixed height */
+  object-fit: cover; /* Ensures images fill the box while maintaining aspect ratio */
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
