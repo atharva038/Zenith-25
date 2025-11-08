@@ -164,7 +164,7 @@ const Mentor = () => {
             &quot;Zenith is the festival of the sports organised by the sggs
               from decade for all the students around the Maharashtra. zenith
               sports teach us organized, well structure, dynamic behaviour of
-              life so enjoy zenith 2025
+              life so enjoy zenith 6
               <br />
               खेळाच्या जिद्धिने, खेळाच्या सामर्थ्याने, खेळाचे भविष्य बनवुया चला
               zenith २५ खेळुया&quot;

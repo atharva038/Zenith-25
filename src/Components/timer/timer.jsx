@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./timer.css";
 
 const CountdownTimer = () => {
-  const targetDate = new Date("February 28, 2025 00:00:00").getTime();
+  const targetDate = new Date("February 28, 2026 00:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState(targetDate - new Date().getTime());
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const CountdownTimer = () => {
   return (
     <div className="timer">
       <div className="timer-inner">
-        <div className="timer-title">Zenith 2025 Countdown</div>
+        <div className="timer-title">Zenith 2026 Countdown</div>
         <div className="timer-content">
           <div className="timer-box">
             <p className="glow">{days}</p>

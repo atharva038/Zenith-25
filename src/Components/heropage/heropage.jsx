@@ -79,12 +79,12 @@ export default function Heropage() {
           <img src={calendar} className="calendar" alt="" />
           <div className="calendarDate">
           <h3>From Date</h3>
-          <h2>28 feb 2025 </h2>
+          <h2>28 feb 2026 </h2>
           </div>
           <div className="line">|</div>
           <div className="calendarDate" style={{marginLeft: "10px"}}>
           <h3>To Date</h3>
-          <h2>02 Mar 2025 </h2>
+          <h2>02 Mar 2026 </h2>
           </div>
         </div>
         </div>
