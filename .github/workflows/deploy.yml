@@ -39,13 +39,14 @@ jobs:
           REACT_APP_FIREBASE_APP_ID: ${{ secrets.REACT_APP_FIREBASE_APP_ID }}
           REACT_APP_FIREBASE_MEASUREMENT_ID: ${{ secrets.REACT_APP_FIREBASE_MEASUREMENT_ID }}
       
-      # Step 5: Deploy to Hostinger via FTP
+      # Step 5: Deploy to Hostinger via FTP/SFTP
       - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps  # Try FTPS first (FTP over SSL)
           local-dir: ./build/
           server-dir: /public_html/
           dangerous-clean-slate: false  # Keep existing files, only update changed ones
