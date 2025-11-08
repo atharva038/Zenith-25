@@ -48,5 +48,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps  # Try FTPS first (FTP over SSL)
           local-dir: ./build/
-          server-dir: /public_html/
+          server-dir: /domains/zenithsggs.in/public_html/
           dangerous-clean-slate: false  # Keep existing files, only update changed ones
