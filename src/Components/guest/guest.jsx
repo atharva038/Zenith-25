@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "swiper/css";
 import "./guest.css";
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 const url = [
   {
@@ -54,8 +54,7 @@ const url = [
   {
     img: "https://res.cloudinary.com/dyamfzeea/image/upload/v1738695799/Images%20of%20guest/gcjiyt8tqu4y2usbqvyx.jpg",
     text: "Mr.Pardeep Narwal",
-    achive:
-      "Formal Kabaddi Player",
+    achive: "Formal Kabaddi Player",
     year: "(Guest of honour Zenith'24)",
   },
 ];
@@ -92,7 +91,7 @@ const Guest = () => {
         <Slider {...settings}>
           {url.map((url, idx) => (
             <div
-              key={url.id}
+              key={idx}
               className={idx === imageIndex ? "slide activeSlide" : "slide"}
             >
               <img src={url.img} alt={url.img} />

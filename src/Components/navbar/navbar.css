@@ -39,6 +39,7 @@
   align-items: center;
   justify-content: flex-start;
   z-index: 1001;
+  margin-left: -1.5rem;
 }
 
 .logo-black-inner-div {
@@ -50,8 +51,8 @@
 }
 
 .logoss {
-  max-width: 100%;
-  max-height: 85px;
+  max-width: 140%;
+  max-height: 110px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -213,6 +214,7 @@
   border-radius: 8px;
   position: relative;
   z-index: 1002;
+  margin-bottom: 20px;
 }
 
 .hamb svg {
@@ -225,6 +227,7 @@
 .hamb:hover {
   background: rgba(255, 133, 3, 0.15);
   transform: scale(1.1);
+  margin-bottom: 50px;
 }
 
 .hamb:hover svg {
@@ -266,8 +269,15 @@
 /* RESPONSIVE DESIGN */
 /* ============================================ */
 
+/* Desktop - Hide hamburger on large screens */
+@media (min-width: 1100px) {
+  .hamb {
+    display: none !important;
+  }
+}
+
 /* Tablet & Below - Show Mobile Menu */
-@media (max-width: 1640px) {
+@media (max-width: 1100px) {
   .navbar-main-div {
     height: 85px;
     padding: 0 2.5rem;
@@ -279,7 +289,8 @@
   }
 
   .logoss {
-    max-height: 80px;
+    max-width: 140%;
+    max-height: 100px;
   }
 
   .hamb {
@@ -490,7 +501,8 @@
   }
 
   .logoss {
-    max-height: 75px;
+    max-width: 140%;
+    max-height: 95px;
   }
 
   .hamb {
@@ -516,7 +528,8 @@
   }
 
   .logoss {
-    max-height: 70px;
+    max-width: 140%;
+    max-height: 90px;
   }
 
   .hamb {
@@ -556,7 +569,8 @@
   }
 
   .logoss {
-    max-height: 65px;
+    max-width: 140%;
+    max-height: 85px;
   }
 
   .hamb {
@@ -598,7 +612,8 @@
   }
 
   .logoss {
-    max-height: 60px;
+    max-width: 140%;
+    max-height: 80px;
   }
 
   .hamb {
