@@ -109,7 +109,7 @@ export default function Navbar({activePage}) {
         </div>
       </div>
       <div className="navbar-inner-div">
-        <ul id="menu-ul" className={`ppp ${menuOpen ? 'menu-open' : ''}`}>
+        <ul id="menu-ul" className={`ppp ${menuOpen ? "menu-open" : ""}`}>
           {/* <li>
             <a href="/">HOME</a>
           </li>
