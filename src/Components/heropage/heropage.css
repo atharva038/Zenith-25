@@ -13,11 +13,11 @@
 }
 
 .logo-black-div {
-  width: 264px;
-  height: 120px;
+  width: 350px;  /* Increased from 264px */
+  height: 150px;  /* Increased from 120px */
   background: #060606;
-  top: 0;
-  left: 0;
+  top: 0;  /* Reset to 0 */
+  left: 0;  /* Reset to 0 */
   clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
   position: fixed;
   z-index: 1100;
@@ -33,7 +33,9 @@
 }
 
 .logo-black-inner-div img {
-  width: 35%;
+  width: 60%;  /* Increased from 35% */
+  margin-top: 20px;  /* Top margin for logo */
+  margin-left: 30px;  /* Left margin for logo */
 }
 
 .logo-black-inner-div h3 {

@@ -88,13 +88,15 @@
 }
 
 .logo-black-div {
-  width: 200px;
-  height: 90px;
+  width: 300px;  /* Increased from 200px */
+  height: 120px;  /* Increased from 90px */
 }
 
 .logoss {
-  scale: 1.4;
+  scale: 2;  /* Increased from 1.4 */
   padding-bottom: 20px;
+  margin-top: 20px;  /* Top margin for logo */
+  margin-left: 30px;  /* Left margin for logo */
 }
 
 @media (max-width: 1440px) {

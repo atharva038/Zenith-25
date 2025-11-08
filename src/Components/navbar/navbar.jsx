@@ -78,15 +78,16 @@
 //   );
 // }
 
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./navbar.css";
 // import menu from "../../Images/menu.png";
 // import close from "../../Images/closeMenu.png";
-// import logo from "../../Images/logo.png";
+import logo from "../../Images/logo.png";
+import logo_No_Back from "../../Images/logo_No_Back.png";
 import pdf from "../Event/Zenith.pdf";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
-export default function Navbar({ activePage }) {
+export default function Navbar({activePage}) {
   const [c, setC] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -114,11 +115,7 @@ export default function Navbar({ activePage }) {
     <div className="navbar-main-div">
       <div className="logo-black-div">
         <div className="logo-black-inner-div">
-          <img
-            src="https://res.cloudinary.com/dqki29mbg/image/upload/v1707291527/Zenith-24/rezgbpiqvujpjowazump.png"
-            alt="logo"
-            className="logoss"
-          />
+          <img src={logo_No_Back} alt="logo" className="logoss" />
         </div>
       </div>
       <div className="navbar-inner-div">
@@ -162,9 +159,8 @@ export default function Navbar({ activePage }) {
             Register{" "}
           </a> */}
 
-          <Link   to="/registration"          className="middle2">
-          Register{" "}
-
+          <Link to="/registration" className="middle2">
+            Register{" "}
           </Link>
 
           <a className="middle2" onClick={() => download(pdf)}>
